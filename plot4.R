@@ -34,6 +34,6 @@ legend("topright",box.lwd = 0,c("Sub_metering_1","Sub_metering_2","Sub_metering_
 
 # Plot-4
 y4<-myData$Global_reactive_power[idx]
-plot(datetime,y1,type="l",ylab="Global_reactive_power")
+plot(datetime,y4,type="l",ylab="Global_reactive_power")
 
 dev.off()

@@ -21,7 +21,7 @@ plot(datetime,y1,type="l",ylab="Global Active Power",xlab="")
 
 # Plot-2
 y2<-myData$Voltage[idx]
-plot(datetime,y1,type="l",ylab="Voltage")
+plot(datetime,y2,type="l",ylab="Voltage")
 
 # Plot-3
 sm1<-myData$Sub_metering_1[idx]

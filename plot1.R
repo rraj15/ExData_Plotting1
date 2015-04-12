@@ -9,6 +9,6 @@ idx<-as.Date(myData$Date,format='%d/%m/%Y')=="2007-02-01" | as.Date(myData$Date,
 gap<-myData$Global_active_power[idx]
 
 # Open png device and draw histogram
-png(file="plot1.png",height=480,width=480,bg="transparent")
+png(file="plot1.png",height=480,width=480)
 hist(gap,right=FALSE, col="red",main="Global Active Power", xlab="Global Active Power (kilowatts)",plot=TRUE)
 dev.off()

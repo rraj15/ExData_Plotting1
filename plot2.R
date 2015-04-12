@@ -11,6 +11,6 @@ x<-strptime(dt,"%d/%m/%Y %H:%M:%S")
 y<-myData$Global_active_power[idx]
 
 # Open png device and plot
-png(file="plot2.png",height=480,width=480,bg="transparent")
+png(file="plot2.png",height=480,width=480)
 plot(x,y,ylab="Global Active Power (kilowatts)",xlab="",type="l")
 dev.off()

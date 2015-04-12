@@ -5,7 +5,7 @@ setwd("/Users/rraj/DataScience/class/exploratoryDataAnalysis/project1")
 myData<-read.table("household_power_consumption.txt",sep=";", header=TRUE,na.strings="?")
 
 # Open png device and plot 4 graphs
-png(file="plot4.png",height=480,width=480,bg="transparent")
+png(file="plot4.png",height=480,width=480)
 
 # Create 2x2 matrix on graphic device
 par(mfrow=c(2,2))

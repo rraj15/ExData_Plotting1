@@ -14,7 +14,7 @@ sm3<-myData$Sub_metering_3[idx]
 
 
 # Open png device and plot with legend
-png(file="plot3.png",height=480,width=480,bg="transparent")
+png(file="plot3.png",height=480,width=480)
 plot(x,sm1,type="l",ylab="Energy sub metering",xlab="")
 lines(x,sm2,col="red")
 lines(x,sm3,col="blue")
